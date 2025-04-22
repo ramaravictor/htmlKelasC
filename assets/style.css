@@ -1,0 +1,24 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1731398916709-19c7ae1be371?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+}
+
+h2 {
+  font-family: "Lobster Two", cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid #733c3c;
+  background: rgb(105, 101, 102);
+  color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 2pxrgb (46, 46, 45);
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}

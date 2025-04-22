@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="text-align: center;">
+    <h1>Belajar HTML Multimedia</h1>
+    <h2 id="video">Video Timer</h2>
+    <video width="640" height="360" controls autoplay muted>
+        <source src="assets/5 SECOND TIMER ⏲️.mp4" type="Video/mp4">
+    </video>
+
+    <div>
+        <h2 id="videoyt">Video youtube</h2>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/8MFnq_3dp3Q?si=6D-rwY7XZO_Fi7NW"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <h2 id="audio">Audio</h2>
+    <audio controls>
+        <source src="assets/voice.mp3" type="Audio/mpeg">
+    </audio>
+
+    <h2 id="gambar">Gambar</h2>
+    <div>
+        <img src="https://muhammadiyah.or.id/wp-content/uploads/2023/07/gedung-UMY.jpg" alt="Gambar">
+    </div>
+
+    <!-- <script src="assets/function.js"></script> -->
+    <script>
+
+        video.addEventListener('click', function video() {
+            alert('Ini Video Timer');
+        });
+
+        videoyt.addEventListener('click', function videoYT() {
+            alert('Ini Video YT UMY');
+        });
+
+        audio.addEventListener('click', function audio() {
+            alert('Ini Sound Audio');
+        });
+
+        gambar.addEventListener('click', function gambar() {
+            alert('Ini Gambar UMY');
+        });
+    </script>
+</body>
+
+</html>
